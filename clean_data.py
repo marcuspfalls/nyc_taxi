@@ -7,7 +7,7 @@ import cartopy.io.shapereader as shpreader
 np.set_printoptions(threshold=sys.maxsize)
 
 pd.set_option('display.max_columns', None)
-input = pd.read_csv('/home/Earth/mfalls/Downloads/junior-data-scientist-test-data-team-master/tlc_yellow_trips_2018_11_22.csv')
+input = pd.read_csv('tlc_yellow_trips_2018_11_22.csv')
 print(input.shape[0])
 input = input.drop('vendor_id',1)# removed these as they seem irrelevant
 input = input.drop('store_and_fwd_flag',1)
