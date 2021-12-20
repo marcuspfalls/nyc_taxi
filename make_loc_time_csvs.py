@@ -26,7 +26,6 @@ for h in range(24):
     pickup[str(h)] = np.zeros((n))
     dropoff[str(h)] = np.zeros((n))
 for r in range(input.shape[0]):
-    #print(r)
     puID = input['pickup_location_id'][r]
     doID = input['dropoff_location_id'][r]
     puH = input['pickup_datetime'][r].hour
