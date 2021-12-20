@@ -1,15 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-#from mpl_toolkits.basemap import Basemap
 import numpy as np
-import matplotlib.dates as md
 import sys
-import math as m
-import cartopy
 import cartopy.io.shapereader as shpreader
-import cartopy.crs as ccrs
-import shapely.wkt as wkt
-from shapely.geometry import MultiPolygon
 
 np.set_printoptions(threshold=sys.maxsize)
 
